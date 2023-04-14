@@ -102,3 +102,6 @@ text-transform: uppercase;
 
 }
 
+.days .empty {
+  color: rgb(74, 74, 74);
+}
