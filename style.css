@@ -71,6 +71,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transform: .2s;
+}
+
+.days div:hover {
+  border: 1px solid gray;
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
 }
 
 .today {
