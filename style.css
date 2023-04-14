@@ -76,3 +76,16 @@ body {
 .today {
   background-color: green;
 }
+
+.date {
+  text-align: center;
+  padding: 10%;
+}
+
+.date h1 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600px;
+font-size: 2em;
+text-transform: uppercase;
+
+}
