@@ -46,17 +46,24 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+ 
 
 }
 
 .weekdays {
   display: flex;
 justify-content: space-evenly;
+
+}
+
+.weekdays div {
+  margin-top: 30px;
 }
 
 .days div {
   height: 50px;
   width: 42.30px;
+  margin-top: 20px;
 }
 
 .days div {
