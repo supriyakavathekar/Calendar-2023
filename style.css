@@ -41,6 +41,8 @@ body {
 
 .month {
   background-color: green;
+  border: 1px solid green;
+  border-radius: 5px;
 }
 
 .weekdays {
@@ -58,6 +60,7 @@ body {
 .weekdays {
   display: flex;
   justify-content: space-evenly;
+
 }
 
 .weekdays div {
@@ -98,3 +101,4 @@ font-size: 2em;
 text-transform: uppercase;
 
 }
+
