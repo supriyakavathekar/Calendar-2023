@@ -12,6 +12,7 @@ body {
 }
 .calendar {
   width: 300px;
+  height: 100%;
  
 }
 
@@ -41,11 +42,24 @@ body {
 
 .days {
   background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .weekdays {
   display: flex;
 justify-content: space-evenly;
+}
+
+.days div {
+  height: 50px;
+  width: 42.30px;
+}
+
+.days div {
+  text-align: center;
 }
 
