@@ -61,12 +61,16 @@ justify-content: space-evenly;
 }
 
 .days div {
-  height: 50px;
+  height: 40px;
   width: 42.30px;
   margin-top: 20px;
+
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .days div {
-  text-align: center;
+ 
 }
 
