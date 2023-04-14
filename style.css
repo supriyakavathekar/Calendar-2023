@@ -8,16 +8,44 @@
 body {
   height: 100vh;
   width: 100vw;
+ 
+}
+.calendar {
+  width: 300px;
+ 
 }
 
 
 
 .container{
   height: 100%;
-  width: 100%;
+ width: 100%;
   background-color: antiquewhite;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
+
 
 .month{
   background-color: green;
+  
 }
+
+.weekdays{
+  background-color: black;
+
+}
+
+.days {
+  background-color: black;
+
+}
+
+.weekdays {
+  display: flex;
+justify-content: space-evenly;
+}
+
